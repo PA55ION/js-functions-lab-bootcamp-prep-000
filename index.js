@@ -2,3 +2,19 @@
 function happyHolidays() {
   return "Happy holidays!";
 }
+
+function happyHolidaysTo(name) {
+  return `Happy Holidays, ${name}`;
+}
+
+function happyHolidayTo(holiday, name) {
+  return `Happy ${holiday}, ${name}!`
+}
+
+function holidayCoundown(holiday, days) {
+  return `It's ${days} days until ${holiday}`
+}
+
+happyHolidaysTo('Jackie');
+happyHolidayTo('New Year', 'Babe');
+holidayCountdown('28', 'Christmas');
